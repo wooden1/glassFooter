@@ -1,60 +1,74 @@
-
+body{
+  border:10px solid #5394ff;
+  margin:0;
+  padding:0;
+}
 .container{
-  width: 80%;
   background-color: #bebebe;
-  margin:auto;
-  overflow: hidden;
+  width: 100vw;
 }
 
+
 .box{
-  height: 16vh;
-  width: 80vw;
-  margin:auto;
   background-color: #5394ff;
-  border: 1px solid black;
-  opacity: .8;
+  /*border: 1px solid black;*/
   font-size: 1.8em;
+  height: 16vh;
+  margin:auto;
+  opacity: .8;
+  width: 100vw;
 
 }
 
 .box p{
-  margin:auto;
-  font-family: cursive, fantasy;
   color: #000000;
-  text-align: center;
+  font-family: cursive, fantasy;
   font-weight: 400;
+  margin:auto;
+  text-align: center;
   text-decoration: underline;
 
 }
 
-#about{
-  line-height: 1.3;
+.sectOne{
   font-size: 1.8em;
-  margin:20%;
-
+  height: 20vh;
+  line-height: 1.3;
+  margin: 20%;
 }
 nav{
+  background-color: #5394ff;
+  /*border:2px solid #bebebe;*/
   font-size: 1.4em;
   position: fixed;
-  width: inherit;
+  width:100vw;
   z-index: 1;
-  background-color: #5394ff;
-  border:2px solid #bebebe;
 }
 
 a{
+  /*border-right: 2px solid #bebebe;*/
   font-family: fantasy;
-  border-right: 2px solid #bebebe;
-
 }
 
 a:hover{
   color:#a3f3d2;
 }
+
+.sectThree{
+  font-size: 1.3em;
+  height: 20vh;
+  margin-top:10em;
+  text-align: center;
+}
 footer{
-   position: relative;
-   
-   margin:0px 20px;
    background-color: #5394ff;
-   width: 100%;
+   height:10vh;
+   position: relative;
+   width: 100vw;
+}
+.sectTwo{
+  font-size: 2rem;
+  height: 20vh;
+ ;
+
 }
