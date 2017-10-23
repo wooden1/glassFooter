@@ -1,0 +1,60 @@
+
+.container{
+  width: 80%;
+  background-color: #bebebe;
+  margin:auto;
+  overflow: hidden;
+}
+
+.box{
+  height: 16vh;
+  width: 80vw;
+  margin:auto;
+  background-color: #5394ff;
+  border: 1px solid black;
+  opacity: .8;
+  font-size: 1.8em;
+
+}
+
+.box p{
+  margin:auto;
+  font-family: cursive, fantasy;
+  color: #000000;
+  text-align: center;
+  font-weight: 400;
+  text-decoration: underline;
+
+}
+
+#about{
+  line-height: 1.3;
+  font-size: 1.8em;
+  margin:20%;
+
+}
+nav{
+  font-size: 1.4em;
+  position: fixed;
+  width: inherit;
+  z-index: 1;
+  background-color: #5394ff;
+  border:2px solid #bebebe;
+}
+
+a{
+  font-family: fantasy;
+  border-right: 2px solid #bebebe;
+
+}
+
+a:hover{
+  color:#a3f3d2;
+}
+footer{
+   position: relative;
+   
+   margin:0px 20px;
+   background-color: #5394ff;
+   width: 100%;
+}
