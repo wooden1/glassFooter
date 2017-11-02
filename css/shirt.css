@@ -1,0 +1,92 @@
+*{
+  marging: 0;
+  padding: 0;
+}
+.wrapper{
+  /*background-color: #e6e1e1;
+  font-size: 16px;
+  display: grid;
+  height: auto;
+  grid-row-gap: 4vh;
+  grid-template-columns: 100%;
+  grid-template-rows: 100%;
+  overflow: hidden;
+  width:100%;*/
+ background-color: #e8e5a4;
+ display: grid;
+ grid-template-areas:
+    "header"
+    "nav"
+    "one"
+    "two"
+    "three"
+    "footer";
+ line-height: 1.4;
+}
+
+header {
+  border-bottom: solid 2px #939292;
+  background-color: #5394ff;
+  font-family: lato , sans-serif;
+  grid-area: header;
+  height: 20vh;
+  text-align: center;
+  /*width: 100%;*/
+}
+
+
+footer {
+  background-color: #5394ff;
+  /*border: solid 1px #939292*/
+  font-family: lato, sans-serif;
+  grid-area: footer;
+  height: 10vh;
+  text-align: center;
+  /*width: 100vw;*/
+}
+p{
+  font-family: 'Lato:300i', sans-serif;
+  text-align: center;
+}
+
+.one {
+  border-bottom: solid 1px #939292;
+  background-color: #e8e5a4;
+  grid-area: one;
+  
+  text-align: justify;
+  /*width: 100vw;*/
+}
+.two{
+  border-bottom:solid 1px #939292;
+  background-color: #e8e5a4;
+  grid-area: two;
+
+}
+
+.three{
+  border-bottom:solid 1px #939292;
+  background-color: #e8e5a4;
+  grid-area: three;
+  height: 15vh;
+
+}
+nav{
+  background-color: #c0cadd;
+  border-bottom: solid 1px #939292;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+/*a{
+  margin-right: 2em;
+  color: #5394ff;
+}*/
+.fa-scissors{
+  font-size: 2em;
+}
+.fa-ravelry{
+  font-size: 2em;
+  color: #5394ff;
+  margin-right:1.5em;
+}

@@ -1,5 +1,5 @@
 body{
-  border:10px solid #5394ff;
+  display: grid;
   margin:0;
   padding:0;
 }
@@ -14,9 +14,9 @@ body{
   /*border: 1px solid black;*/
   font-size: 1.8em;
   height: 16vh;
-  margin:auto;
+  margin:inherit;
   opacity: .8;
-  width: 100vw;
+
 
 }
 
@@ -24,7 +24,7 @@ body{
   color: #000000;
   font-family: cursive, fantasy;
   font-weight: 400;
-  margin:auto;
+  /*margin:auto;*/
   text-align: center;
   text-decoration: underline;
 
