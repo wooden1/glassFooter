@@ -47,14 +47,14 @@ p{
 }
 
 .one {
-  border-bottom: solid 1px #939292;
+  /*border-bottom: solid 1px #939292;*/
   grid-area: one;
   height: auto;
   text-align: justify;
   /*width: 100vw;*/
 }
 .two{
-  border-bottom:solid 1px #939292;
+  /*border-bottom:solid 1px #939292;*/
   grid-area: two;
   height: auto;
 
@@ -73,15 +73,24 @@ nav{
   padding: 10px;
   text-align: center;
 }
-/*a{
+a:nth-child(1){
   margin-right: 2em;
-  color: #5394ff;
-}*/
+  /*color: #5394ff;*/
+}
+a:nth-child(2){
+  margin-right: 2em;
+  /*color: #5394ff;*/
+}
+a:nth-child(3){
+  margin-right: 2em;
+  /*color: #5394ff;*/
+}
+
 .fa-scissors{
-  font-size: 2em;
+  font-size: 4em;
 }
 .fa-ravelry{
-  font-size: 2em;
   color: #5394ff;
+  font-size: 2em;
   margin-right:1.5em;
 }
