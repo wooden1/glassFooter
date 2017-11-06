@@ -30,6 +30,9 @@ header {
   text-align: center;
   /*width: 100%;*/
 }
+.brand span{
+  color:#dddddd;
+}
 
 
 footer {
@@ -50,8 +53,8 @@ p{
   /*border-bottom: solid 1px #939292;*/
   grid-area: one;
   height: auto;
-  text-align: justify;
-  /*width: 100vw;*/
+
+
 }
 .two{
   /*border-bottom:solid 1px #939292;*/
