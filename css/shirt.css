@@ -22,16 +22,19 @@ body{
 }
 
 header {
-  border-bottom: solid 2px #939292;
   background-color: #5394ff;
+  border-bottom: solid 2px #939292;
+  box-shadow: #000 3px 0 3px;
   font-family: 'lato' , sans-serif;
   grid-area: header;
   height: 20vh;
+  margin-bottom: .5rem;
   text-align: center;
   /*width: 100%;*/
 }
 .brand span{
   color:#dddddd;
+  text-shadow: 1px 1px 10px #222222;
 }
 
 
@@ -47,12 +50,14 @@ footer {
 p{
   font-family: 'Lato:300i';
   text-align: center;
+  text-shadow: #aaaaaa 1px 0 10px;
 }
 
 .one {
   /*border-bottom: solid 1px #939292;*/
   grid-area: one;
   height: auto;
+  margin: 2rem;
 
 
 }
@@ -60,6 +65,8 @@ p{
   /*border-bottom:solid 1px #939292;*/
   grid-area: two;
   height: auto;
+  margin: 2rem;
+
 
 }
 
@@ -67,18 +74,20 @@ p{
   border-bottom:solid 1px #939292;
   grid-area: three;
   height: auto;
+  margin: auto;
 
 }
 nav{
   background-color: #c0cadd;
   border-bottom: solid 1px #939292;
+  box-shadow: #000 3px 0 3px;
   font-weight: bold;
   padding: 10px;
   text-align: center;
 }
 a:nth-child(1){
   margin-right: 2em;
-  /*color: #5394ff;*/
+  /*color: #53941ff;*/
 }
 a:nth-child(2){
   margin-right: 2em;
@@ -95,5 +104,17 @@ a:nth-child(3){
 .fa-ravelry{
   color: #5394ff;
   font-size: 2em;
-  margin-right:1.5em;
+  /* margin-right:1.5em; */
+  margin:auto;
 }
+form{
+  border: 1px solid black;
+  border-left:8px solid #5394ff;
+  box-shadow: black 1px 1px 2px;
+  margin-bottom:2em;
+  padding:2rem;
+}
+ button{
+   color: #5394ff;
+ }
+ 
