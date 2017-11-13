@@ -85,21 +85,25 @@ nav{
   padding: 10px;
   text-align: center;
 }
+a:hover{
+  text-decoration: none;
+  text-shadow: 1px 1px 4px #5a5a5a;
+}
 a:nth-child(1){
-  margin-right: 2em;
+  margin-right: 2rem;
   /*color: #53941ff;*/
 }
 a:nth-child(2){
-  margin-right: 2em;
+  margin-right: 2rem;
   /*color: #5394ff;*/
 }
 a:nth-child(3){
-  margin-right: 2em;
+  margin-right: 2rem;
   /*color: #5394ff;*/
 }
 
 .fa-scissors{
-  font-size: 4em;
+  font-size: 4rem;
 }
 .fa-ravelry{
   color: #5394ff;
@@ -117,4 +121,3 @@ form{
  button{
    color: #5394ff;
  }
- 
