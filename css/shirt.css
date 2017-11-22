@@ -101,9 +101,21 @@ a:nth-child(3){
   margin-right: 2rem;
   /*color: #5394ff;*/
 }
+.fa-stack span{
 
-.fa-scissors{
-  font-size: 4rem;
+}
+
+.fa-stack-1x{
+  color: #ff8eff;
+  font-size: 4em;
+  text-shadow: #3e4551 1px 1px 2px;
+  transform: rotate(55deg);
+  z-index: auto;
+}
+.fa-stack-2x{
+  color: #000000;
+  font-size: 3em;
+  transform: rotate(55deg);
 }
 .fa-ravelry{
   color: #5394ff;
@@ -120,4 +132,12 @@ form{
 }
  button{
    color: #5394ff;
+   font-family: 'Lato', sans-serif;
  }
+img{
+  border-radius: 8px;
+  display: block;
+  height: auto;
+  filter: hue-rotate(40deg);
+  width: 100%;
+}
