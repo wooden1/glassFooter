@@ -88,6 +88,22 @@ p{
   text-align: center;
   text-shadow: #aaaaaa 1px 0 10px;
 }
+.dept{
+  margin-top: 15%;
+}
+
+.web-skills{
+  background: rgba(3,169, 180, 0.3);
+  border: 1px solid #ddd;
+  border-radius: 20%;
+  box-shadow: 2px 3px gray;
+}
+
+.web-skills img{
+  display: inline;
+  padding: 5px; /* Some padding */
+  width: 30%; /* Set a small width */
+}
 
 .one {
   /*border-bottom: solid 1px #939292;*/
